@@ -1,0 +1,312 @@
+:root {
+  --cor-fundo: #0f1c4d;
+  --cor-roxo: #b05fff;
+  --cor-azul: #2f6bff;
+  --cor-cinza: #e2e2e2;
+  --cor-branca: #ffffff;
+
+  --sombra-caixa: 10px 15px 20px rgba(0, 0, 0, 0.4);
+  --borda-radius: 15px;
+  --font-title: 'Montserrat', sans-serif; 
+  --font-text: 'Poppins', sans-serif;    
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section-1 {
+  background: radial-gradient(circle at 20% 80%, #5a2d91, #5a2d91, #0f1c4d);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+}
+
+
+.section-3 {
+  background: radial-gradient(circle at 50% 70%, #5a2d91, #0f1c4d);
+  color: var(--cor-branca);
+  text-align: center;
+  padding: 3rem 3rem;
+  font-family: var(--font-text);
+}
+
+
+.section-4 {
+ 
+  color: var(--cor-fundo);
+  text-align: center;
+  padding: 3rem 1rem;
+  font-family: var(--font-text);
+}
+.section-4 div {
+  display: inline-block;
+  width: 300px;
+  margin: 1rem;
+  background-color: var(--cor-branca);
+  color: var(--cor-fundo);
+  border-radius: var(--borda-radius);
+  padding: 1rem;
+  box-shadow: var(--sombra-caixa);
+}
+
+
+.section-5 {
+  background: radial-gradient(circle at 50% 30%, #5a2d91, #0f1c4d);
+  color: var(--cor-branca);
+  padding: 3rem 1rem;
+  font-family: var(--font-text);
+  text-align: center;
+}
+.section-5 > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+#carts-section5 {
+  display: inline-block;
+  width: 400px;
+  background-color: var(--cor-branca);
+  color: var(--cor-fundo);
+  border-radius: var(--borda-radius);
+  padding: 1rem;
+  box-shadow: var(--sombra-caixa);
+}
+.section-5 h3 {
+  margin-bottom: 0.5rem;
+}
+.section-5 button {
+  margin-top: 2rem;
+  background-color: var(--cor-roxo);
+  border: none;
+  color: var(--cor-branca);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-family: var(--font-title);
+  cursor: pointer;
+  width: 150px;
+}
+
+/* SEÇÃO 6 */
+.section-6 {
+  background: radial-gradient(circle at 80% 20%, #5a2d91, #0f1c4d);
+  color: var(--cor-branca);
+  padding: 3rem 1rem;
+  font-family: var(--font-text);
+}
+
+.section-6 form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+.section-6 input, .section-6 select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+}
+.section-6 button {
+  background-color: var(--cor-azul);
+  border: none;
+  color: var(--cor-branca);
+  padding: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.section-6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.section-6 > div {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#cabeçalho {
+    background-color: var(--cor-fundo);
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    color: var(--cor-branca);
+}
+#logo-header{
+  max-width: 100%;
+  height: 30px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#botao-header {
+  background-color: #0d8f51;
+  border: none;
+  border-radius: 10px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px;
+  color: var(--cor-branca);
+  font-size: var(--font-title);
+  cursor: pointer;
+}
+#logo-whats-header {
+    height: 22px;
+}
+#bloco-titulo {
+    text-align: center;
+    height: 350px;
+    color: var(--cor-branca);
+    font-family: var(--font-title);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao-titulo {
+    width: 180px;
+    height: 30px;
+    background-color: var(--cor-fundo);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor-branca);
+    font-family: var(--font-text);
+    font-weight: 500;
+    margin: 20px;
+    cursor: pointer;
+}
+#bloco-soluçoes {
+    color: var(--cor-branca);
+    text-align: center;
+    font-family: var(--font-text);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+#cart-soluções {
+  display: flex;
+  gap: 30px;
+  margin: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+#carts {
+   flex: 1 1 250px; /* flexível, com largura mínima de 250px */
+  max-width: 300px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  overflow-wrap: break-word;
+  color: var(--cor-fundo);
+}
+ul {
+  list-style-position: inside;
+  list-style-type: disc;
+}
+#carts p, #carts li {
+  white-space: normal; /* quebra linha normalmente */
+  overflow: visible;
+  text-align: left;
+  margin-left: 5px;
+}
+#logo-soluçoes{
+  max-width: 35px;
+  border-radius: 100%;
+}
+#titulo-cart-soluçoes {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  text-align: left;
+  line-height: 1;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+#botao-soluçoes {
+  background-color: var(--cor-azul);
+  border: solid #2f6bff;
+  border-radius: 5px;
+  font-family: var(--font-text);
+  color: #ffffff;
+  font-weight: 500px;
+  padding: 5px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+footer {
+  background-color: var(--cor-fundo);
+  color: var(--cor-branca);
+  padding: 2rem 1rem;
+  font-family: var(--font-text);
+  
+}
+#rodape-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+#rodape-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+}
+footer div {
+  margin-bottom: 0.5rem;
+}
+footer button {
+  background-color: var(--cor-branca);
+  border: none;
+  border-radius: 5px;
+  font-family: var(--font-text);
+  color: var(--cor-fundo);
+  font-weight: 500;
+  padding:4px;
+  cursor: pointer;
+}
+footer a {
+  color: var(--cor-cinza);
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: 300;
+}
+#rodape-3 {
+  display: flex;
+  line-height: 1.2;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+footer hr {
+  border: 1px solid var(--cor-branca);
+  margin: 1rem 0;
+}
+footer img {
+  max-width: 100%;
+  height: 30px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
